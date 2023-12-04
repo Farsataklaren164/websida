@@ -1,0 +1,176 @@
+<style>
+    .vert {
+        text-align: center;
+        background-color:rgb(97, 92, 92);
+        padding-top: 10;
+        padding-bottom: 10;
+        
+    }
+
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #6c6666;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #e3e3e3;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #555555;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    background-color:rgb(116, 111, 111);
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.test1 {
+    transition: margin-left .5s;
+}
+
+</style>
+<head>
+<title>Planet skin</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="laserMan.html">Laser män</a>
+    <a href="kvinna_prislister.html">Prislistor</a>
+    <a href="behandlingar.html">Behandlingar</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Planet skin</span>
+  </div>
+<h1>Laser Kvinnor</h1>
+
+
+<p>Information på ingång</p>
+
+
+
+
+<p>Fler behandlingar på ingång</p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img class="card-img-to" src="cm slim bild rätt card.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">CM Slim</h5>
+        <p class="card-text">Träna utan svett och bygg upp dina muskler med hjälp av CM Slim som med hjälp av  elektroniskt magnetfält hjälper dig träna dina muskler</p>
+        <a href="cmslim.html" class="btn btn-secondary">Mer Information</a>
+    </div>
+      </div>
+      <div class="col">
+            <img class="card-img-to" src="soprano maskin card.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Laserhårborttagning</h5>
+            <p class="card-text">Lasra bort hårstråna med soprano ice platinum, Smärtfritt och enkelt. Säkra din tid nu för att bli hårfri.(boka direkt)</p>
+            <a href="#" class="btn btn-secondary">Mer Information</a>
+            </div>
+      </div>
+      <div class="col">
+        <img class="card-img-to" src="injektins card bild.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Injektionsbehandlingar</h5>
+        <p class="card-text"></p>
+        <a href="Injektionsbehandlingar.html" class="btn btn-secondary">Mer Information</a>
+    </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="powershape grej.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Powershape2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+ 
