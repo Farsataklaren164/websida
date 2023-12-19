@@ -1,65 +1,80 @@
+/* för element med klassen 'vert' */
+  .vert {
+      text-align: center;
+      background-color:rgb(97, 92, 92);
+      padding-top: 10;
+      padding-bottom: 10;
+      
+  }
 
-    .vert {
-        text-align: center;
-        background-color:rgb(116, 111, 111);
-        padding-top: 10;
-        padding-bottom: 10;
-        
-    }
-
-    body {
-  font-family: "Lato", sans-serif;
+  /* för dokumentets body */
+  body {
+font-family: "Lato", sans-serif;
 }
 
+/* för sidomenynavigering */
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #51554d;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
 }
 
+/* för länkar inom sidomenynavigeringen */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #e3e3e3;
+display: block;
+transition: 0.3s;
 }
 
+/* för hover-effekten på länkar inom sidomenynavigeringen */
 .sidenav a:hover {
-  color: #f1f1f1;
+color: #6e6f6e;
 }
 
+/* för stängknappen i sidomenynavigeringen */
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
 }
 
+/* för huvudinnehållsområdet */
 #main {
-    transition: margin-left .5s;
-    padding: 16px;
-    position: fixed;
-    width: 100%;
-    background-color:rgb(116, 111, 111);
-    padding-top: 10;
-    padding-bottom: 10;
+  transition: margin-left .5s;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  background-color: #51554d;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+/* Det är så att det ska finnas mellanrum mellan varje prisgrej */
+
+.prisgrej{
+  margin: 20px;
+
 }
 
+/* Media query för skärmar med en maximal höjd av 450px */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
 }
 
+/* för element med klassen 'test1' */
 .test1 {
-    transition: margin-left .5s;
+  transition: margin-left .5s;
 }
+
